@@ -62,12 +62,15 @@ npm install
 - Admin Page
 ![craete](screenshots/CreateAssesment.png)
 ![Add qestions](screenshots/AddQestions.png)
+
+- Manage Assesmnet
 ![Mange assesemenet](screenshots/ManageAssesment.png)
 
 - Applicant Page
 ![login](screenshots/ApplicantLogin.png)
 ![start assesmnet](screenshots/starttset.png)
 ![submit](screenshots/submit.png)
+- Result Page
 ![result](screenshots/Result.png)
 
 
