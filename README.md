@@ -66,6 +66,7 @@ npm install
 ![login](screenshots/ApplicantLogin.png)
 ![start assesmnet](screenshots/starttset.png)
 ![submit](screenshots/submit.png)
+- Result Page
 ![result](screenshots/Result.png)
 
 
