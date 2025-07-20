@@ -43,10 +43,12 @@ server/  -> Node.js + Express backend
 # Installation 
 - client
 npm create vite@latest
+
 npm install
 
 - server
 npm init -y
+
 npm install
 
 # Run the project
