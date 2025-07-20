@@ -8,7 +8,7 @@ const AssessmentTab = () => {
   return (
     <div className="p-4 ">
       {/* Buttons */}
-      <div className="flex justify-center space-x-4 mb-6">
+      <div className="flex justify-center space-x-4 mb-6 ">
         <button
           className={`px-4 py-2 rounded-lg ${activeTab === 'create' ? 'bg-blue-600 text-white' : 'bg-gray-200'}`}
           onClick={() => setActiveTab('create')}

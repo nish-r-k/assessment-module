@@ -51,7 +51,7 @@ const ManageAssessment = () => {
 
   if (assessments.length === 0) {
     return (
-      <div className="w-full flex flex-col items-center justify-center mt-20">
+      <div className="w-full flex flex-col items-center justify-center mt-20 bg-gray-200">
         <DocumentTextIcon className="h-12 w-12 text-gray-400 mb-4" />
         <h3 className="text-lg font-semibold">No assessments created</h3>
         <p className="text-gray-500 text-sm">Create your first assessment to get started.</p>
@@ -60,7 +60,7 @@ const ManageAssessment = () => {
   }
 
   return (
-    <div className="p-6 space-y-6">
+    <div className="p-6 space-y-6 ">
       {assessments.map((assessment) => (
         <div
           key={assessment._id}

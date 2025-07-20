@@ -41,9 +41,7 @@ const ApplicantAuth = () => {
           position: "top-center",
         });
 
-        // Optional: save token or user info to localStorage if needed
-        // localStorage.setItem("applicantToken", data.token);
-
+       
         setTimeout(() => {
           navigate("/applicant");
         }, 1500);
