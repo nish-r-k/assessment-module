@@ -6,7 +6,7 @@ const HomePage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-16 bg-white">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-between px-8 md:px-16 bg-gray-200">
      
       
       <div className="md:w-1/2 mt-12 md:mt-0 text-center md:text-left">

@@ -55,7 +55,9 @@ npm install
 
 # Sreenshots
 - Home Page
-![home](screenshots/HomePage.png)
+
+![Home](screenshots/Home.png)
+
 
 - Admin Page
 ![craete](screenshots/CreateAssesment.png)
