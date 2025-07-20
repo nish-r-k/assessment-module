@@ -3,14 +3,14 @@ import Assessment from "../models/Assessment.js";
 
 export const createAssessment = async (req, res) => {
   try {
-    //console.log("Received data:", req.body); // <---- Add this line
+   
 
     const assessment = new Assessment(req.body);
     await assessment.save();
 
     res.status(201).json(assessment);
   } catch (error) {
-    console.error("Save error:", error); // <--- log error if any
+    console.error("Save error:", error); 
     res.status(500).json({ message: "Failed to save", error });
   }
 };
@@ -39,28 +39,11 @@ export const deleteAssessment = async (req, res) => {
 
 export const bulkUpload = async (req, res) => {
   try {
-    await Assessment.insertMany(req.body); // expects array
+    await Assessment.insertMany(req.body); 
     res.json({ message: "Bulk upload successful" });
   } catch (error) {
     res.status(400).json({ message: "Upload failed", error });
   }
 };
 
-// import Assessment from "../models/Assessment.js";
 
-// export const createAssessment = async (req, res) => {
-//   try {
-//     const { title, description, duration } = req.body;
-
-//     if (!title || !description || !duration) {
-//       return res.status(400).json({ message: "All fields are required" });
-//     }
-
-//     const newAssessment = new Assessment({ title, description, duration });
-//     const saved = await newAssessment.save();
-
-//     res.status(201).json(saved);
-//   } catch (error) {
-//     res.status(500).json({ message: "Server error", error: error.message });
-//   }
-// };

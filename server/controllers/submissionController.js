@@ -64,7 +64,7 @@ export const submitAssessment = async (req, res) => {
 
     res.status(201).json({
       message: 'Assessment submitted successfully',
-      submission, // <-- front-end expects this
+      submission, 
     });
   } catch (error) {
     console.error('Submission Error:', error);
